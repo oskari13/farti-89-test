@@ -7,13 +7,13 @@ body {
 header {
     width: 100%;
     height: 100px;
-    background-color: aquamarine;
+
 }
 
 header nav {
     width: 50%;
     height: 80px;
-    background-color: brown;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,27 +21,51 @@ header nav {
 }
 
 header nav ul {
-    width: 50%;
+    width: 300px;
     height: 60px;
-    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
 }
 
 header nav ul li {
+    width: 300px;
+    height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-    background-color: rgb(53, 202, 34);
 
 }
-
-
 
 header nav ul li a {
     display: flex;
     justify-content: space-around;
-
     align-items: center;
+    background-color: blue;
+    border: 1px solid blue;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 50px;
+    border-radius: 20px;
+
+}
+
+.a1:hover {
+    color: rgb(255, 0, 0);
+    background-color: greenyellow;
+}
+
+.a2:hover {
+    color: rgb(255, 0, 0);
+    background-color: greenyellow;
+}
+
+.a3:hover {
+    color: rgb(255, 0, 0);
+    background-color: greenyellow;
 }
 
 h1 {
